@@ -146,7 +146,7 @@ python app.py
 Open:
 
 ```text
-http://127.0.0.1:5000
+http://127.0.0.1:8501
 ```
 
 ---
@@ -162,7 +162,7 @@ docker build -t customer-churn-app .
 Run Container:
 
 ```bash
-docker run -p 5000:5000 customer-churn-app
+docker run -p 8501:8501 customer-churn-app
 ```
 
 Application will be available at:
